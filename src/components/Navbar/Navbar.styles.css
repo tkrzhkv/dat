@@ -1,0 +1,39 @@
+.navbar {
+  width: 873px;
+}
+
+.navbar_list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar_list_item:first-child {
+  margin-left: 0;
+}
+
+.navbar_list_item {
+  color: #ffffff;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+
+  margin-left: 40px;
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.5px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.navbar_list_item_arrow {
+  width: 12px;
+  height: 7px;
+  margin-left: 4px;
+}
+
+.navbar_divider {
+  transform: scaleY(3);
+  margin-left: 65px;
+  border-right: 1px solid #ffffff33;
+}

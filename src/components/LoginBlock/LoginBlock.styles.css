@@ -1,0 +1,32 @@
+.login_block {
+  max-width: 139px;
+  height: 20px;
+}
+
+.login_block_list {
+  display: flex;
+}
+
+.login_block_list_item {
+  position: relative;
+
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
+.login_divider {
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.login_block_enter-arrow {
+  position: absolute;
+  top: 0;
+  left: -26px;
+  width: 16.5px;
+  height: 16.5px;
+}
