@@ -1,0 +1,47 @@
+.header_contacts {
+  width: 260px;
+  height: 41px;
+
+  margin-top: 33px;
+  padding-left: 20px;
+}
+
+.header_contacts_block {
+  position: relative;
+}
+
+.header_contacts a {
+  color: #84be51;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.header_contacts p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.header_contacts_phone_circle {
+  border-radius: 90px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: -46px;
+
+  cursor: pointer;
+}
+
+.header_contacts_phone_circle:hover {
+  background: #8c3213;
+}
+
+.header_contacts_arrow_icon {
+  position: absolute;
+  top: 6px;
+  right: 77px;
+  cursor: pointer;
+}

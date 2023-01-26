@@ -33,7 +33,7 @@
 }
 
 .navbar_divider {
-  transform: scaleY(3);
-  margin-left: 65px;
+  transform: scaleY(2.64);
+  margin-left: 72px;
   border-right: 1px solid #ffffff33;
 }

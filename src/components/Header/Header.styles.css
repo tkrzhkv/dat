@@ -1,4 +1,4 @@
-.header {
+.nav_header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,9 +7,14 @@
   background-color: #1e6140;
 }
 
-.header_container {
+.nav_header_container {
   display: flex;
   justify-content: space-between;
 
   width: 1110px;
+}
+
+.header_container {
+  margin: 0 auto;
+  max-width: 1110px;
 }

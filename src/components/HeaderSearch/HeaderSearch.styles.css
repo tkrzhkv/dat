@@ -1,0 +1,41 @@
+.header_search_input_block {
+  position: relative;
+  margin-right: 57px;
+}
+
+.header_search_input {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 90px;
+
+  width: 342px;
+  height: 40px;
+  margin-top: 34px;
+  padding-left: 19px;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header_search_divider {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+
+  height: 28px;
+
+  color: #00000033;
+}
+
+.header_search_magnifier {
+  position: absolute;
+  top: 47px;
+  right: 22px;
+
+  width: 15px;
+  height: 15px;
+}
+
+.header_search::placeholder {
+  color: #484848;
+}
