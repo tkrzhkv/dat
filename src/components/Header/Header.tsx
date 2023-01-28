@@ -1,7 +1,10 @@
 import React from "react";
-import { HeaderContent } from "../HeaderContent/HeaderContent";
-import { LoginBlock } from "../LoginBlock/LoginBlock";
-import { Navbar } from "../Navbar/Navbar";
+import { Categories } from "./components/Categories/Categories";
+import { Content } from "./components/Content/Content";
+import { Identifier } from "./components/Identifier/Identifier";
+import { LoginBlock } from "./components/LoginBlock/LoginBlock";
+import { Navbar } from "./components/Navbar/Navbar";
+
 import "./Header.styles.css";
 
 export const Header = () => {
@@ -14,7 +17,9 @@ export const Header = () => {
         </div>
       </div>
       <div className='header_container'>
-        <HeaderContent />
+        <Content />
+        <Categories />
+        <Identifier />
       </div>
     </div>
   );

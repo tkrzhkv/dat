@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
+import { menuItems } from "../../../../static/menuItems";
 import "./Navbar.styles.css";
-import { menuItems } from "../../static/menuItems";
 
 export interface IMenu {
   text: string;
@@ -16,6 +16,7 @@ export const Navbar = () => {
         {menuItems.map((menu) => {
           return (
             <Link
+              key={menu.text}
               to={menu.link}
               className={menu.class}
             >

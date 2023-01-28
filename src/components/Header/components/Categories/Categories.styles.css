@@ -1,0 +1,38 @@
+.category_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.category_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1e6140;
+  border-radius: 20px;
+  overflow: hidden;
+
+  width: 200px;
+  height: 40px;
+
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+}
+
+.category_item img {
+  padding-left: 12px;
+}
+
+.link {
+  text-decoration: none;
+  text-align: left;
+}
+
+.category_text {
+  padding-left: 10px;
+}

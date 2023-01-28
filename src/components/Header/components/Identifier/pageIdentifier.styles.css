@@ -1,0 +1,44 @@
+.identifier_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 434px;
+  height: 22px;
+
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.identifier_block li {
+  list-style: none;
+}
+
+.list_item {
+  padding-right: 20px;
+}
+
+.bold {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #00000080;
+}
+
+.regular {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #00000080;
+}
+
+.point {
+  width: 6px;
+  height: 6px;
+}

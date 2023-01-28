@@ -1,9 +1,9 @@
 import React from "react";
-import { PhoneSvg } from "../svg/PhoneSvg/PhoneSvg";
 import ArrowDown from "/icons/arrow_down.svg";
-import "./HeaderContacts.styles.css";
+import "./Contacts.styles.css";
+import { PhoneSvg } from "../../../svg/PhoneSvg/PhoneSvg";
 
-export const HeaderContacts = () => {
+export const Contacts = () => {
   return (
     <div className='header_contacts'>
       <div className='header_contacts_block'>

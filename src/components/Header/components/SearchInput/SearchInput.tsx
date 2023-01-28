@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Divider from "/icons/divider.svg";
 import Search from "/icons/search.svg";
-import "./HeaderSearch.styles.css";
+import "./SearchInput.styles.css";
 
-export const HeaderSearch = () => {
+export const SearchInput = () => {
   const [value, setValue] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
